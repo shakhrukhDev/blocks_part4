@@ -10,5 +10,8 @@ class AppIcons {
   static const String appleIcon = "assets/app_icons/apple_icon.svg";
   static const String facebookIcon = "assets/app_icons/facebook_icon.svg";
   static const String google1Icon = "assets/app_icons/google1_icon.svg";
+  static const String stylishIcon = "assets/app_icons/stylish_icon.svg";
+  static const String hourIcon = "assets/app_icons/hour_icon.svg";
+  static const String stikerIcon = "assets/app_icons/stiker.svg";
 
 }

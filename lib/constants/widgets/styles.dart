@@ -25,6 +25,49 @@ class AppStyle {
         ),
       );
 
+  static TextStyle get montserrat12xW400White => GoogleFonts.montserrat(
+    textStyle: const TextStyle(
+      fontSize: 12,
+      color: AppColors.white,
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ),
+  );
+
+  static TextStyle get montserrat12xW400Black => GoogleFonts.montserrat(
+    textStyle: const TextStyle(
+      fontSize: 12,
+      color: AppColors.black,
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ),
+  );
+
+  static TextStyle get montserrat10xW400Black => GoogleFonts.montserrat(
+    textStyle: const TextStyle(
+      fontSize: 10,
+      color: AppColors.black,
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ),
+  );
+
+  static TextStyle get montserrat10xW400Red => GoogleFonts.montserrat(
+    textStyle: const TextStyle(
+      fontSize: 10,
+      color: AppColors.red,
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ),
+  );
+  static TextStyle get libreCaslonText18xW700Blue => GoogleFonts.libreCaslonText(
+    textStyle: const TextStyle(
+      fontSize: 18,
+      color: AppColors.blue,
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ),
+  );
   static TextStyle get montserrat14xW600Gray => GoogleFonts.montserrat(
         textStyle: const TextStyle(
           fontSize: 14,
@@ -33,6 +76,49 @@ class AppStyle {
           fontStyle: FontStyle.normal,
         ),
       );
+
+  static TextStyle get montserrat16xW500Black => GoogleFonts.montserrat(
+    textStyle: const TextStyle(
+      fontSize: 16,
+      color: AppColors.black,
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ),
+  );
+
+  static TextStyle get montserrat16xW700Black => GoogleFonts.montserrat(
+    textStyle: const TextStyle(
+      fontSize: 16,
+      color: AppColors.black,
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ),
+  );
+
+  static TextStyle get montserrat12xW300Gray => GoogleFonts.montserrat(
+    textStyle: const TextStyle(
+      fontSize: 12,
+      color: AppColors.gray,
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ),
+  );
+  static TextStyle get montserrat12xW300Black => GoogleFonts.montserrat(
+    textStyle: const TextStyle(
+      fontSize: 12,
+      color: AppColors.black,
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ),
+  );
+  static TextStyle get montserrat20xW700White => GoogleFonts.montserrat(
+    textStyle: const TextStyle(
+      fontSize: 20,
+      color: AppColors.white,
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ),
+  );
 
   static TextStyle get montserrat18xW600Red => GoogleFonts.montserrat(
         textStyle: const TextStyle(
@@ -43,6 +129,22 @@ class AppStyle {
         ),
       );
 
+  static TextStyle get montserrat16xW500White => GoogleFonts.montserrat(
+    textStyle: const TextStyle(
+      fontSize: 16,
+      color: AppColors.white,
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ),
+  );
+  static TextStyle get montserrat20xW500Black => GoogleFonts.montserrat(
+    textStyle: const TextStyle(
+      fontSize: 20,
+      color: AppColors.black,
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ),
+  );
   static TextStyle get montserrat18xW600Black => GoogleFonts.montserrat(
         textStyle: const TextStyle(
           fontSize: 18,

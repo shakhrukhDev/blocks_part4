@@ -2,6 +2,7 @@ import 'package:block_part4/constants/app_color.dart';
 import 'package:block_part4/constants/app_icon.dart';
 import 'package:block_part4/constants/widgets/styles.dart';
 import 'package:block_part4/presentation/auth/login/login_page.dart';
+import 'package:block_part4/presentation/main/home/home_page.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -124,7 +125,14 @@ class _RegisterPageState extends State<RegisterPage> {
                 SizedBox(height: MediaQuery.of(context).size.height*0.08,),
                 ElevatedButton(
                   onPressed: () {
-                    if (_formKey.currentState!.validate()) {}
+                    if (_formKey.currentState!.validate()) {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => HomePage(),
+                        ),
+                      );
+                    }
                   },
                   style: ElevatedButton.styleFrom(
                       backgroundColor: AppColors.red,

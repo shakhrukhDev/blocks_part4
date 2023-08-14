@@ -2,7 +2,6 @@ import 'package:block_part4/constants/app_color.dart';
 import 'package:block_part4/constants/app_image.dart';
 import 'package:block_part4/constants/widgets/styles.dart';
 import 'package:block_part4/presentation/auth/login/login_page.dart';
-import 'package:block_part4/presentation/main/home/home_page.dart';
 import 'package:flutter/material.dart';
 
 class GetStartedPage extends StatelessWidget {

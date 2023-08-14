@@ -1,8 +1,9 @@
 import 'package:block_part4/constants/app_color.dart';
 import 'package:block_part4/constants/app_icon.dart';
-import 'package:block_part4/constants/app_image.dart';
 import 'package:block_part4/constants/widgets/styles.dart';
 import 'package:block_part4/presentation/auth/register/register_page.dart';
+import 'package:block_part4/presentation/main/home/home_page.dart';
+import 'package:block_part4/presentation/main/main/main_page.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -46,7 +47,8 @@ class _LoginPageState extends State<LoginPage> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text("Welcome Back!", style: AppStyle.fontWelcomeBackW700(appcolor: Colors.black)),
+                Text("Welcome Back!", style: AppStyle.fontWelcomeBackW700(appcolor: Colors.black),
+                ),
                 SizedBox(height: MediaQuery.of(context).size.height*0.04,),
                 Form(
                   key: _formKey,
@@ -105,7 +107,14 @@ class _LoginPageState extends State<LoginPage> {
                 ),
                 ElevatedButton(
                   onPressed: () {
-                    if (_formKey.currentState!.validate()) {}
+                    if (_formKey.currentState!.validate()) {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => MainPage(),
+                        ),
+                      );
+                    }
                   },
                   style: ElevatedButton.styleFrom(
                       backgroundColor: AppColors.red,

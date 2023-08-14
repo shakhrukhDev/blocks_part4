@@ -2,9 +2,7 @@ import 'package:block_part4/constants/app_image.dart';
 import 'package:block_part4/data/repositories/intro/intro_repository.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter/material.dart';
-
 part 'intro_event.dart';
-
 part 'intro_state.dart';
 
 class IntroBloc extends Bloc<IntroEvent, IntroState> {
@@ -22,7 +20,7 @@ class IntroBloc extends Bloc<IntroEvent, IntroState> {
       );
     });
     on<IntroSkipPressed>((event, emit) async {
-    /*  emit(LoginIsLoadingState());
+      /*emit(LoginIsLoadingState());
       final result = await _repository.loginRequest(argument);
       result.fold((left) {
         emit(LoginErrorState());

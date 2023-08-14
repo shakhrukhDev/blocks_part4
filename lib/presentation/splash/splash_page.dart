@@ -5,7 +5,7 @@ import 'package:block_part4/constants/widgets/styles.dart';
 import 'package:block_part4/data/sources/local_source.dart';
 import 'package:block_part4/presentation/auth/login/login_page.dart';
 import 'package:block_part4/presentation/intro/intro_page.dart';
-import 'package:block_part4/presentation/main/main_page.dart';
+import 'package:block_part4/presentation/main/main/main_page.dart';
 import 'package:flutter/material.dart';
 
 class SplashPage extends StatefulWidget {
